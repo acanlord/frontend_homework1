@@ -1,0 +1,102 @@
+/* .container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  color: #ffeead;
+} */
+
+html, body {
+  box-sizing: border-box;
+  background-color: #ffeead;
+  height: 100%;
+  padding: 10px;
+  margin: 0px;
+}
+
+.eur {
+  background-color: #96ceb4;	
+}
+
+.usd {
+  background-color: #88d8b0;
+}
+
+.aud {
+  background-color: #ff6f69;
+}
+
+.gbp {
+  background-color: #ffcc5c;
+}
+.gbp {
+  background-color: #ffcc5c;
+}
+.blr {
+  background-color: #ffcc5c;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    
+ 
+}
+
+/* Target all divs 
+.conainer > div {
+     */
+
+.header {
+    display: flex;
+   flex-basis: 100px;
+   color: red;
+   /* height: 200px; */
+   
+   /* flex-grow, flex-shrink, flex-basis */
+}
+
+ .denomination {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80px;
+    
+}
+
+.curcontainer{
+    align-items: flex-end;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    justify-content: space-around;
+    /* justify-content: space-between */
+    border-bottom:2px solid #ccc;
+    width:500px;
+    margin: 0 auto;
+    
+}
+
+
+
+.eur {
+    height: 50%;
+}
+
+.usd {
+    height: 40%;
+}
+
+.aud {
+    height: 50%;
+}
+
+.gbp{
+    height: 50%;
+}
+
+.blr {
+    height: 50%;
+}
